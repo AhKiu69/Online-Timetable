@@ -42,7 +42,7 @@ export function useUploadToQiniu() {
             },
             complete(res) {
               console.log('upload complete: ', res);
-              let site = 'com.cn/' + res.key;
+              let site = 'htn/' + res.key;
               console.log(site);
               setImageUrl(site);
               resolve(site);
