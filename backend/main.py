@@ -212,9 +212,7 @@ async def get_comments():
     return comments
 
 
-access_key = 'QMSlDbxxASPhI0mh8apXUkOiq0oYSd8S3EvDkWGo'  # 你的七牛云账号的 Access Key
-secret_key = 'jtanKRSXlY-4JiC4EXRNbJo8YSjzy7qikKQB6pFO'  # 你的七牛云账号的 Secret Key
-bucket_name = 'coretecs'  # 你的七牛云存储空间的名字
+
 
 q = Auth(access_key, secret_key)
 
