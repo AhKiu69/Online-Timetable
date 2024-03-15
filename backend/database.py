@@ -4,7 +4,7 @@ import aioredis
 
 OS_NAME = platform.system()
 if OS_NAME == 'Linux':
-    mongo_client = MongoClient("mongodb://ryankiu:Kiu422?!@localhost:27017/?authSource=admin")
+    mongo_client = MongoClient("")
 else:   
     mongo_client = MongoClient("mongodb://localhost:27017/")
 
@@ -18,7 +18,7 @@ exhibition_collection = db['exhibition']
 
 async def get_redis():
     if OS_NAME == 'Linux':
-        redis = await aioredis.from_url("redis://:Zdl5204207@localhost")
+        redis = await aioredis.from_url("")
     else:   
         redis = await aioredis.from_url("redis://localhost")
     yield redis
