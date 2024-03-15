@@ -25,7 +25,7 @@ const Home = () => {
     <div className='flex flex-col gap-4 p-5 sm:flex-row'>
       <img
         className='w-full h-full max-w-sm aspect-auto shrink-0'
-        src='http://cdn.coretecs.com.cn/30661701908432_.pic.jpg'
+        src='http://g'
         alt='shelva'
       />
       <div className='flex flex-col'>

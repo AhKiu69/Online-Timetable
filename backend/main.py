@@ -34,7 +34,7 @@ else:
 # 允许特定来源的请求
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["https://www.coretecs.com.cn","https://coretecs.com.cn"],  # 将域名替换为您要允许的域名
+        allow_origins=[""],  # 将域名替换为您要允许的域名
         allow_credentials=True,  # 如果您的请求需要使用凭据（如Cookie），请设置为True
         allow_methods=["*"],  # 允许所有HTTP方法
         allow_headers=["*"],  # 允许所有HTTP标头
@@ -212,9 +212,7 @@ async def get_comments():
     return comments
 
 
-access_key = 'QMSlDbxxASPhI0mh8apXUkOiq0oYSd8S3EvDkWGo'  # 你的七牛云账号的 Access Key
-secret_key = 'jtanKRSXlY-4JiC4EXRNbJo8YSjzy7qikKQB6pFO'  # 你的七牛云账号的 Secret Key
-bucket_name = 'coretecs'  # 你的七牛云存储空间的名字
+ # 你的七牛云存储空间的名字
 
 q = Auth(access_key, secret_key)
 
