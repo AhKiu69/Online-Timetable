@@ -1,0 +1,10 @@
+.rbc-event-label {
+  display: none;
+}
+
+.rbc-slot-selection {
+  border: 2px dashed gray; /* 边缘是灰色的虚线 */
+  background-color: rgba(128, 128, 128, 0.5); /* 背景颜色是50%透明的灰色 */
+  border-radius: 10px; /* 圆角是10px */
+}
+

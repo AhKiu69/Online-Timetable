@@ -1,0 +1,6 @@
+*/build/*
+*/node_modules/*
+*.sh
+.DS_Store
+*.png
+*.pyc
